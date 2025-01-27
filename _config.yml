@@ -1,8 +1,17 @@
+theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Theme Colors (UVU Brand Colors)
+colors:
+  primary: "#275D38"    # UVU Green
+  secondary: "#FFDB05"  # UVU Yellow
+  dark: "#1A4027"      # Dark Green
+  light: "#F5F5F5"     # Light Gray
+  text: "#333333"      # Dark Gray
 
 # Site Information
 title: UVU Computer Science Department
@@ -14,6 +23,7 @@ description: >-
 url: "https://memari-majid.github.io"
 baseurl: "/UVU-CS-Program_Analyzer"
 logo: UVU_logo.png
+show_downloads: false
 
 # Department Information
 department:
@@ -80,12 +90,9 @@ nav_pages:
 
 # Social Media
 social_links:
-  github: UVU-CS
-  linkedin: uvu-cs-department
-  twitter: uvucs
-  youtube: uvucomputerscience
-  instagram: uvucs
   facebook: uvucs
+  linkedin: school/uvucs
+  instagram: uvucs
 
 # Quick Links
 quick_links:
