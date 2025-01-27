@@ -11,6 +11,11 @@
 header {
   background: var(--uvu-green);
   background: linear-gradient(120deg, var(--uvu-green), var(--uvu-dark));
+  padding: 50px 20px;
+}
+
+.inner {
+  max-width: 1200px;
 }
 
 #main-content h1,
@@ -23,6 +28,7 @@ header {
   }
 }
 
+/* Program Cards */
 .program-card {
   background: #fff;
   border-radius: 8px;
@@ -35,8 +41,21 @@ header {
   &:hover {
     transform: translateY(-5px);
   }
+
+  h3 {
+    margin-top: 0;
+    color: var(--uvu-green);
+    border-bottom: 2px solid var(--uvu-yellow);
+    padding-bottom: 10px;
+  }
+
+  ul {
+    margin-left: 0;
+    padding-left: 20px;
+  }
 }
 
+/* CTA Button */
 .cta-button {
   display: inline-block;
   padding: 15px 30px;
@@ -45,7 +64,9 @@ header {
   text-decoration: none;
   border-radius: 50px;
   font-weight: bold;
+  transition: all 0.3s ease;
   margin-top: 20px;
+  text-shadow: none;
 
   &:hover {
     background: var(--uvu-dark);
