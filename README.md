@@ -1,3 +1,9 @@
+# UVU Computer Science Programs Analyzer
+
+📚 **[View Our Interactive Website](https://memari-majid.github.io/UVU-CS-Program_Analyzer)**
+
+Welcome to the UVU Computer Science Programs guide! This project provides comprehensive information about Computer Science programs at Utah Valley University.
+
 # 🎮 Your Future in Tech Starts at UVU!
 
 ## 🌟 Why Choose UVU Computer Science?
