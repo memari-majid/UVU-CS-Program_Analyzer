@@ -7,239 +7,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        /* UVU Colors and Variables */
-        :root {
-            --uvu-green: #275D38;
-            --uvu-yellow: #FFDB05;
-            --uvu-dark-green: #1A4027;
-            --uvu-light-gray: #F5F5F5;
-            --transition-speed: 0.3s;
-            --box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            --hover-transform: translateY(-5px);
-        }
-        
-        /* Global Styles */
-        body {
-            font-family: 'Poppins', system-ui, -apple-system, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            scroll-behavior: smooth;
-        }
-        
-        /* Navigation */
-        .navbar {
-            background-color: var(--uvu-green) !important;
-            padding: 1rem;
-            box-shadow: var(--box-shadow);
-            transition: all var(--transition-speed) ease;
-        }
-        
-        .navbar.scrolled {
-            padding: 0.5rem 1rem;
-            background-color: rgba(39, 93, 56, 0.95) !important;
-            backdrop-filter: blur(10px);
-        }
-        
-        .nav-link {
-            font-weight: 500;
-            padding: 0.5rem 1rem !important;
-            transition: all var(--transition-speed) ease;
-            position: relative;
-        }
-        
-        .nav-link::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            width: 0;
-            height: 2px;
-            background: var(--uvu-yellow);
-            transition: all var(--transition-speed) ease;
-            transform: translateX(-50%);
-        }
-        
-        .nav-link:hover::after {
-            width: 80%;
-        }
-
-        /* Logo */
-        .uvu-logo {
-            height: 50px;
-            width: auto;
-            margin-right: 15px;
-            transition: all var(--transition-speed) ease;
-        }
-        
-        .scrolled .uvu-logo {
-            height: 40px;
-        }
-
-        /* Hero Section */
-        .hero-section {
-            background: linear-gradient(135deg, var(--uvu-green), var(--uvu-dark-green));
-            color: white;
-            padding: 6rem 0;
-            margin-bottom: 2rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero-section::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            right: -50%;
-            width: 100%;
-            height: 200%;
-            background: radial-gradient(circle, var(--uvu-yellow) 0%, transparent 60%);
-            opacity: 0.1;
-            animation: rotate 30s infinite linear;
-        }
-
-        @keyframes rotate {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-
-        /* Cards */
-        .card {
-            border: none;
-            border-radius: 15px;
-            box-shadow: var(--box-shadow);
-            transition: all var(--transition-speed) ease;
-            overflow: hidden;
-        }
-
-        .card:hover {
-            transform: var(--hover-transform);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-        }
-
-        .card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 4px;
-            background: var(--uvu-green);
-            transform: scaleX(0);
-            transition: transform var(--transition-speed) ease;
-        }
-
-        .card:hover::before {
-            transform: scaleX(1);
-        }
-
-        /* Section Titles */
-        .section-title {
-            color: var(--uvu-green);
-            position: relative;
-            padding-bottom: 1rem;
-            margin-bottom: 2rem;
-            font-weight: 600;
-        }
-
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 60px;
-            height: 4px;
-            background: var(--uvu-yellow);
-            transition: width var(--transition-speed) ease;
-        }
-
-        .section-title:hover::after {
-            width: 100px;
-        }
-
-        /* Feature Icons */
-        .feature-icon {
-            font-size: 2.5rem;
-            color: var(--uvu-green);
-            margin-bottom: 1rem;
-            transition: all var(--transition-speed) ease;
-        }
-
-        .card:hover .feature-icon {
-            transform: scale(1.1);
-            color: var(--uvu-dark-green);
-        }
-
-        /* Footer */
-        .footer {
-            background-color: var(--uvu-green);
-            border-top: 4px solid var(--uvu-yellow);
-            position: relative;
-        }
-
-        .footer::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="1" fill="rgba(255,255,255,0.05)"/></svg>');
-            opacity: 0.1;
-        }
-
-        .footer a {
-            transition: all var(--transition-speed) ease;
-        }
-
-        .footer a:hover {
-            color: var(--uvu-yellow) !important;
-            transform: translateX(5px);
-        }
-
-        /* Social Links */
-        .social-links a {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            color: white;
-            text-decoration: none;
-            margin-right: 1rem;
-            transition: all var(--transition-speed) ease;
-            padding: 0.5rem;
-            border-radius: 5px;
-        }
-
-        .social-links a:hover {
-            background: rgba(255,255,255,0.1);
-            transform: translateY(-2px);
-        }
-
-        /* Responsive Adjustments */
-        @media (max-width: 768px) {
-            .hero-section {
-                padding: 4rem 0;
-            }
-            
-            .section-title {
-                text-align: center;
-            }
-            
-            .section-title::after {
-                left: 50%;
-                transform: translateX(-50%);
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {% seo %}
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="{{ '/' | relative_url }}">
-                <img src="UVU_logo.png" alt="UVU Logo" class="uvu-logo">
-                <span class="ms-2 d-none d-md-inline text-white">Computer Science</span>
+            <a class="navbar-brand d-flex align-items-center" href="https://www.uvu.edu/cs/">
+                <img src="{{ '/assets/images/UVU_logo.png' | relative_url }}" alt="UVU Logo" class="uvu-logo">
+                <span class="ms-2 d-none d-md-inline">Computer Science</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -248,71 +25,73 @@
                 <ul class="navbar-nav ms-auto">
                     {% for item in site.nav_pages %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+                        <a class="nav-link" href="{{ item.url }}">
+                            <i class="bi {{ item.icon }} me-1"></i>{{ item.title }}
+                        </a>
                     </li>
                     {% endfor %}
+                    <li class="nav-item">
+                        <a class="nav-link cta-button ms-2" href="https://www.uvu.edu/admissions/apply/">
+                            <i class="bi bi-person-plus-fill me-1"></i>Apply Now
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Main Content -->
-    <main>
+    <main class="container py-4">
         {{ content }}
     </main>
 
     <!-- Footer -->
-    <footer class="footer mt-auto py-4 text-white">
+    <footer class="footer mt-5 py-4 text-white">
         <div class="container">
-            <div class="row mb-4">
-                <div class="col-12">
-                    <img src="UVU_logo.png" alt="UVU Logo" height="40">
-                </div>
-            </div>
             <div class="row">
-                <div class="col-md-4">
-                    <h5><i class="bi bi-geo-alt-fill me-2"></i>Contact Us</h5>
-                    <p>{{ site.department.name }}<br>
-                    {{ site.department.building }}, {{ site.department.room }}<br>
-                    {{ site.department.address }}<br>
-                    <i class="bi bi-telephone-fill me-2"></i>{{ site.department.phone }}<br>
-                    <i class="bi bi-envelope-fill me-2"></i><a href="mailto:{{ site.department.email }}" class="text-white">{{ site.department.email }}</a></p>
+                <div class="col-md-4 mb-4">
+                    <h5><i class="bi bi-geo-alt-fill me-2"></i>Visit Us</h5>
+                    <p>
+                        Computer Science Department<br>
+                        CS Building, Room CS-520<br>
+                        800 W University Parkway<br>
+                        Orem, UT 84058
+                    </p>
+                    <p>
+                        <i class="bi bi-telephone-fill me-2"></i>(801) 863-8218<br>
+                        <i class="bi bi-envelope-fill me-2"></i><a href="mailto:cs@uvu.edu" class="text-white">cs@uvu.edu</a>
+                    </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-4">
                     <h5><i class="bi bi-link-45deg me-2"></i>Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://www.uvu.edu/cs" class="text-white" target="_blank" rel="noopener"><i class="bi bi-arrow-right me-2"></i>Department Website</a></li>
-                        <li><a href="https://www.uvu.edu/catalog/current/departments/computer-science/" class="text-white" target="_blank" rel="noopener"><i class="bi bi-arrow-right me-2"></i>Programs & Courses</a></li>
-                        <li><a href="https://www.uvu.edu/cs/student-resources/" class="text-white" target="_blank" rel="noopener"><i class="bi bi-arrow-right me-2"></i>Student Resources</a></li>
-                        <li><a href="https://www.uvu.edu/cs/internships/" class="text-white" target="_blank" rel="noopener"><i class="bi bi-arrow-right me-2"></i>Internships</a></li>
-                        <li><a href="https://www.uvu.edu/cs/clubs/" class="text-white" target="_blank" rel="noopener"><i class="bi bi-arrow-right me-2"></i>Student Clubs</a></li>
-                        <li><a href="https://www.uvu.edu/admissions/" class="text-white" target="_blank" rel="noopener"><i class="bi bi-arrow-right me-2"></i>Apply Now</a></li>
+                        {% for link in site.quick_links %}
+                        <li>
+                            <a href="{{ link.url }}" class="text-white">
+                                <i class="bi bi-arrow-right me-2"></i>{{ link.title }}
+                            </a>
+                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <h5><i class="bi bi-people-fill me-2"></i>Follow Us</h5>
+                <div class="col-md-4 mb-4">
+                    <h5><i class="bi bi-people-fill me-2"></i>Connect With Us</h5>
                     <div class="social-links">
-                        {% if site.social_links.github %}
-                        <a href="https://github.com/{{ site.social_links.github }}">
-                            <i class="bi bi-github"></i> GitHub
+                        <a href="https://www.facebook.com/uvucs" target="_blank">
+                            <i class="bi bi-facebook"></i> Facebook
                         </a>
-                        {% endif %}
-                        {% if site.social_links.linkedin %}
-                        <a href="https://linkedin.com/company/{{ site.social_links.linkedin }}">
+                        <a href="https://www.linkedin.com/school/uvucs" target="_blank">
                             <i class="bi bi-linkedin"></i> LinkedIn
                         </a>
-                        {% endif %}
-                        {% if site.social_links.twitter %}
-                        <a href="https://twitter.com/{{ site.social_links.twitter }}">
-                            <i class="bi bi-twitter-x"></i> Twitter
+                        <a href="https://www.instagram.com/uvucs" target="_blank">
+                            <i class="bi bi-instagram"></i> Instagram
                         </a>
-                        {% endif %}
                     </div>
                 </div>
             </div>
             <div class="row mt-4">
                 <div class="col text-center">
-                    <small>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</small>
+                    <small>&copy; {{ 'now' | date: "%Y" }} Utah Valley University Computer Science Department. All rights reserved.</small>
                 </div>
             </div>
         </div>

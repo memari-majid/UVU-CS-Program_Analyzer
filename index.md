@@ -10,7 +10,7 @@ title: UVU Computer Science - Your Future in Tech
 Join Utah Valley University's Computer Science Department and become part of the next generation of tech innovators. Our programs combine cutting-edge curriculum with hands-on experience, preparing you for success in the rapidly evolving tech industry.
 {: .hero-text}
 
-[Explore Programs](https://www.uvu.edu/catalog/current/departments/computer-science/){: .cta-button}
+[Explore Programs](https://www.uvu.edu/cs/programs/){: .cta-button}
 </div>
 
 ## 🎓 Our Programs
@@ -25,7 +25,7 @@ Join Utah Valley University's Computer Science Department and become part of the
 - **Job Growth**: 26% through 2032
 - **Key Skills**: Programming, Algorithms, System Design
 - **Career Paths**: Software Engineer, Systems Architect
-[Learn More →](https://www.uvu.edu/catalog/current/departments/computer-science/computer-science-bs)
+[Learn More →](https://www.uvu.edu/cs/programs/computer-science-bs.html)
 </div>
 
 <div class="program-card" markdown="1">
@@ -35,7 +35,7 @@ Join Utah Valley University's Computer Science Department and become part of the
 - **Job Growth**: 41% annual growth
 - **Key Skills**: Machine Learning, Data Analysis, AI Development
 - **Career Paths**: Data Scientist, ML Engineer
-[Learn More →](https://www.uvu.edu/catalog/current/departments/computer-science/data-science-bs)
+[Learn More →](https://www.uvu.edu/cs/programs/data-science-bs.html)
 </div>
 
 <div class="program-card" markdown="1">
@@ -45,7 +45,7 @@ Join Utah Valley University's Computer Science Department and become part of the
 - **Job Growth**: 33% growth rate
 - **Key Skills**: Software Architecture, Project Management
 - **Career Paths**: Software Architect, Technical Lead
-[Learn More →](https://www.uvu.edu/catalog/current/departments/computer-science/software-engineering-bs)
+[Learn More →](https://www.uvu.edu/cs/programs/software-engineering-bs.html)
 </div>
 
 </div>
