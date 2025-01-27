@@ -3,8 +3,14 @@ title: UVU Computer Science Programs
 description: Utah Valley University Computer Science Department
 logo: /assets/images/UVU_logo.png
 
-# Theme settings
-remote_theme: pages-themes/architect@v0.2.0
+# Theme settings - choose one of these themes:
+remote_theme: pages-themes/cayman@v0.2.0
+# remote_theme: pages-themes/architect@v0.2.0
+# remote_theme: pages-themes/minimal@v0.2.0
+# remote_theme: pages-themes/slate@v0.2.0
+# remote_theme: pages-themes/tactile@v0.2.0
+# remote_theme: pages-themes/modernist@v0.2.0
+
 plugins:
   - jekyll-remote-theme
 
