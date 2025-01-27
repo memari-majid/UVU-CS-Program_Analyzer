@@ -63,19 +63,19 @@ programs:
 # Navigation
 nav_pages:
   - title: Programs
-    url: https://www.uvu.edu/cs/programs/
+    url: https://www.uvu.edu/cs/degrees/
     icon: bi-book
   - title: Faculty
-    url: https://www.uvu.edu/cs/faculty/
+    url: https://www.uvu.edu/cs/
     icon: bi-people
   - title: Research
-    url: https://www.uvu.edu/cs/research/
+    url: https://www.uvu.edu/cs/
     icon: bi-graph-up
   - title: Resources
-    url: https://www.uvu.edu/cs/resources/
+    url: https://www.uvu.edu/cs/
     icon: bi-tools
   - title: Contact
-    url: https://www.uvu.edu/cs/contact/
+    url: https://www.uvu.edu/cs/
     icon: bi-envelope
 
 # Social Media
@@ -91,16 +91,14 @@ social_links:
 quick_links:
   - title: Department Website
     url: https://www.uvu.edu/cs/
-  - title: Course Catalog
-    url: https://www.uvu.edu/cs/programs/
-  - title: Student Resources
-    url: https://www.uvu.edu/cs/resources/
+  - title: Programs & Degrees
+    url: https://www.uvu.edu/cs/degrees/
+  - title: NSF Scholarship
+    url: https://www.uvu.edu/cet/nsfscholarship/
   - title: Internships
-    url: https://www.uvu.edu/cs/internships/
-  - title: Student Clubs
-    url: https://www.uvu.edu/cs/clubs/
+    url: https://www.uvu.edu/cet/internships/computer-science/
   - title: Apply Now
-    url: https://www.uvu.edu/admissions/apply/
+    url: https://www.uvu.edu/admissions/
 
 # SEO Settings
 author: UVU Computer Science Department
