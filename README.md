@@ -1,91 +1,84 @@
-# UVU Computer Science Programs Analyzer
+# UVU Computer Science Programs Guide
 
-A web scraping tool and comprehensive guide for Utah Valley University's Computer Science programs, including career prospects and salary information.
+A comprehensive overview of Computer Science programs at Utah Valley University, including career prospects and earning potential.
 
-## Overview
+## Programs Overview
 
-This project provides:
-1. A Python-based web scraper to collect program information from UVU's CS department
-2. A comprehensive markdown guide about each CS program
-3. Up-to-date career and salary information for each program
-4. Industry insights about the tech sector in Utah and nationwide
+### 1. Computational Data Science (BS)
+- **Program Focus**: Machine learning, AI, and data analytics
+- **Median Salary**: $108,000
+- **Salary Range**: $85,000 - $150,000
+- **Job Growth**: 36% (Much faster than average)
+- **Key Employers**: Amazon, Google, Microsoft, Meta, Financial Institutions
+- **Career Paths**: Data Scientist, ML Engineer, AI Researcher, Data Analyst
 
-## Features
+### 2. Computer Science (BS)
+- **Program Focus**: Software development, computer theory, and AI
+- **Median Salary**: $105,000
+- **Salary Range**: $75,000 - $160,000
+- **Job Growth**: 25% (Much faster than average)
+- **Key Employers**: Tech Companies, Software Firms, Research Labs
+- **Career Paths**: Software Engineer, Systems Architect, AI Developer
 
-- Automated scraping of program information
-- Detailed program descriptions and requirements
-- Career prospects and salary data
-- Industry insights and job market analysis
-- Clean, formatted markdown output
+### 3. Computer Science Education (BS)
+- **Program Focus**: CS teaching and curriculum development
+- **Median Salary**: $75,000
+- **Salary Range**: $55,000 - $95,000
+- **Job Growth**: 12% (Faster than average)
+- **Key Employers**: K-12 Schools, Technical Schools, EdTech Companies
+- **Career Paths**: CS Teacher, Educational Technology Specialist
 
-## Requirements
+### 4. Master of Computer Science
+- **Program Focus**: Advanced computing and cybersecurity
+- **Median Salary**: $131,500
+- **Salary Range**: $95,000 - $185,000
+- **Job Growth**: 31% (Much faster than average)
+- **Key Employers**: Major Tech Companies, Research Institutions
+- **Career Paths**: Senior Software Engineer, Research Scientist, Technical Architect
 
-- Python 3.7+
-- Required packages:
-  ```
-  requests==2.31.0
-  beautifulsoup4==4.12.2
-  ```
+### 5. Software Development (BS)
+- **Program Focus**: Practical software development and team collaboration
+- **Median Salary**: $98,000
+- **Salary Range**: $70,000 - $140,000
+- **Job Growth**: 26% (Much faster than average)
+- **Key Employers**: Software Companies, Tech Startups, Enterprise IT
+- **Career Paths**: Software Developer, Application Developer, Full-stack Developer
 
-## Installation
+### 6. Software Engineering (BS)
+- **Program Focus**: Large-scale systems and project management
+- **Median Salary**: $115,000
+- **Salary Range**: $85,000 - $170,000
+- **Job Growth**: 28% (Much faster than average)
+- **Key Employers**: Tech Giants, Defense Contractors, Financial Services
+- **Career Paths**: Software Engineer, Systems Architect, Technical Lead
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/uvu-cs-programs-analyzer.git
-   cd uvu-cs-programs-analyzer
-   ```
+## Industry Insights
 
-2. Install required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### Utah's Silicon Slopes Advantage
+- Strong tech sector growth in Utah Valley
+- Major tech companies establishing local offices
+- Vibrant startup ecosystem
+- High demand for CS graduates
+- Competitive salaries due to lower cost of living
 
-## Usage
+### Career Growth Potential
+- Computing occupations lead job growth nationally
+- Strong demand across all specializations
+- Remote work opportunities expanding job market
+- Continued growth in emerging technologies
+- Multiple career advancement paths
 
-Run the scraper:
-```bash
-python uvu_cs_scraper.py
-```
+## Program Benefits
+- ABET-accredited programs
+- Industry-aligned curriculum
+- Hands-on learning opportunities
+- Strong industry connections
+- Active placement support
 
-This will:
-1. Scrape information from UVU's CS department website
-2. Generate a comprehensive markdown document (`uvu_cs_programs_guide.md`)
-3. Include career prospects and salary information
+## Contact Information
+- Department: Computer Science
+- Email: [cs@uvu.edu](mailto:cs@uvu.edu)
+- Phone: (801) 863-8218
+- Location: Room CS-520
 
-## Output
-
-The script generates a detailed markdown file (`uvu_cs_programs_guide.md`) containing:
-- Program descriptions
-- Degree requirements
-- Career opportunities
-- Salary information
-- Industry insights
-- Contact information
-
-## Project Structure
-
-```
-uvu-cs-programs-analyzer/
-├── README.md
-├── requirements.txt
-├── uvu_cs_scraper.py
-└── uvu_cs_programs_guide.md
-```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Utah Valley University Computer Science Department
-- Bureau of Labor Statistics for career data
-- Industry salary data sources
-
-## Contact
-
-For questions or feedback, please open an issue in the GitHub repository.
+Data sources: UVU CS Department, Bureau of Labor Statistics, Industry Reports
