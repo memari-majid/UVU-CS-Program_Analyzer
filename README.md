@@ -50,6 +50,35 @@ A comprehensive overview of Computer Science programs at Utah Valley University,
 - **Career Paths**: Senior AI Engineer, Research Scientist, Technical Architect
 - **Industry Note**: 65% of AI roles prefer/require advanced degrees
 
+### Graduate Certificate in Artificial Intelligence
+- **Program Focus**: Advanced AI principles, algorithms, and cybersecurity integration
+- **Required Core Courses** (12 Credits):
+  - Advanced Algorithms
+  - Artificial Intelligence
+  - Machine Learning
+  - Deep Learning
+- **Elective Options** (6 Credits):
+  - Database Management
+  - Cyberphysical Security
+  - Software Engineering Leadership
+  - Advanced Data Mining
+  - Computer Graphics and Mixed Realities
+- **Admission Requirements**:
+  - Bachelor's degree from accredited institution
+  - 3.0 GPA (overall or last 60 semester hours)
+  - Background in Algorithms and Data Structures
+  - Recommended: Linear Algebra and Statistics
+- **Program Benefits**:
+  - Hands-on implementation experience
+  - Cutting-edge AI tools and technologies
+  - Focus on practical applications
+  - Industry-relevant curriculum
+- **Career Enhancement**:
+  - Power user of AI technologies
+  - Leadership in AI innovation
+  - Advanced technical expertise
+  - Industry-recognized credentials
+
 ### 5. Software Development (BS)
 - **Program Focus**: Full-stack development, cloud services, AI integration
 - **Median Salary**: $110,000 (Stack Overflow Survey 2024)
@@ -79,6 +108,7 @@ Utah's tech ecosystem has seen remarkable growth post-COVID:
 - Access to latest AI/ML tools and cloud platforms
 - Industry-experienced faculty
 - Active placement program (85% placement rate within 6 months)
+- Graduate AI Certificate program aligned with industry needs
 
 ## Career Growth Trends
 Recent trends from industry reports:
@@ -87,6 +117,8 @@ Recent trends from industry reports:
 - Remote work options in 78% of tech roles
 - Highest demand in: AI/ML, Cloud Computing, Cybersecurity
 - Utah ranked #4 in tech job growth (CompTIA 2024)
+- 92% of organizations report skills gap in AI/ML (IBM Global AI Adoption Index)
+- AI certification holders command 20-30% higher salaries (Dice Tech Salary Report)
 
 ## Contact Information
 - Department: Computer Science
@@ -95,12 +127,36 @@ Recent trends from industry reports:
 - Location: Room CS-520
 
 ## Sources and References
-- Bureau of Labor Statistics (BLS) Employment Projections 2024
-- Silicon Slopes Annual Report 2024
-- Utah Department of Workforce Services (DWS)
-- McKinsey Global Surveys 2023-2024
-- Glassdoor Tech Jobs Report 2024
-- CompTIA State of Tech Workforce
-- LinkedIn Jobs Report 2024
-- Stack Overflow Developer Survey 2024
-- Grand View Research AI Market Analysis
+
+### Official Sources
+- [UVU Computer Science Department](https://www.uvu.edu/cs/)
+- [UVU Graduate Programs Catalog 2024](https://www.uvu.edu/catalog/current/departments/computer-science/)
+- [UVU AI Certificate Program](https://www.uvu.edu/cet/master-of-computer-science/programs/ai-certificate.html)
+- [Utah Department of Workforce Services (DWS)](https://jobs.utah.gov/wi/data/library/employment/cyberstates.html)
+- [Silicon Slopes Annual Report 2024](https://siliconslopes.com/annual-report)
+
+### Government and Labor Statistics
+- [Bureau of Labor Statistics (BLS) Employment Projections 2024](https://www.bls.gov/ooh/computer-and-information-technology/)
+- [CompTIA State of Tech Workforce](https://www.comptia.org/content/research/cyberstates-2024)
+- [U.S. Department of Education Statistics](https://nces.ed.gov/programs/coe/indicator/ctb)
+
+### Industry Reports
+- [McKinsey Global Surveys 2023-2024](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-in-2023-generative-ais-breakout-year)
+- [IBM Global AI Adoption Index 2023](https://www.ibm.com/downloads/cas/KMAZ8WZV)
+- [Grand View Research AI Market Analysis](https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-market)
+- [Glassdoor Tech Jobs Report 2024](https://www.glassdoor.com/research/tech-jobs-2024/)
+
+### Tech Industry Surveys
+- [Stack Overflow Developer Survey 2024](https://insights.stackoverflow.com/survey)
+- [LinkedIn Jobs Report 2024](https://www.linkedin.com/pulse/future-jobs-report-2024-linkedin)
+- [Dice Tech Salary Report 2024](https://www.dice.com/salary-report)
+
+### Local Tech Resources
+- [Silicon Slopes Tech Hub](https://siliconslopes.com)
+- [Utah Tech Jobs Portal](https://www.utahtech.org)
+- [Utah Computing Partnership](https://www.utahcomputingpartnership.org)
+
+### Professional Organizations
+- [Computing Research Association (CRA)](https://cra.org/data/generation-cs/)
+- [Association for Computing Machinery (ACM)](https://www.acm.org/education)
+- [IEEE Computer Society](https://www.computer.org/education/careers)
