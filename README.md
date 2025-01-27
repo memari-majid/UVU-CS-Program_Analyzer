@@ -20,14 +20,6 @@
 - **Job Growth**: 33.4% (2023-2024)
 - **Career Paths**: Software Architect, DevOps Engineer
 
-### Graduate Programs
-- **Master of Computer Science**
-  - Salary Range: $115,000 - $200,000+
-  - Focus: Advanced Computing & AI
-- **Graduate Certificate in AI**
-  - Salary Range: $140,000 - $300,000+
-  - Duration: 18 credits
-
 ## 💼 Industry Transformation Timeline
 
 ### Pre-COVID Era (2019)
