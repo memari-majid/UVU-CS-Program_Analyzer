@@ -1,5 +1,45 @@
 @import "{{ site.theme }}";
 
+/* Custom styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1400px;
+}
+
+section {
+    width: 100%;
+    float: none;
+    padding: 30px;
+}
+
+.program-card {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #275D38;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background: #1a4027;
+    text-decoration: none;
+}
+
 /* UVU Brand Colors */
 $uvu-green: #275D38;
 $uvu-yellow: #FFDB05;

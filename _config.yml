@@ -1,85 +1,19 @@
 # Site settings
 title: UVU Computer Science Programs
 description: Utah Valley University Computer Science Department
-baseurl: ""
-url: ""
+logo: /assets/images/UVU_logo.png
 
 # Theme settings
-theme: reveal-jekyll
-reveal:
-  transition: convex
-  theme: moon
-  highlight_theme: monokai
-  width: 1400
-  height: 900
-  margin: 0.04
-  controls: true
-  progress: true
-  slideNumber: true
-  keyboard: true
-  overview: true
-  center: true
-  touch: true
-  loop: false
-  rtl: false
-  fragments: true
-  embedded: false
-  help: true
-  showNotes: false
-  autoSlide: 0
-  autoSlideStoppable: true
-  mouseWheel: false
-  hideAddressBar: true
-  previewLinks: false
-  transition: 'slide'
-  backgroundTransition: 'fade'
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
 
-# Reveal.js settings
-reveal_theme: white
-reveal_transition: slide
-reveal_options: 
-  controls: true
-  progress: true
-  slideNumber: true
-  history: true
-  keyboard: true
-  overview: true
-  center: true
-  touch: true
-  hideAddressBar: true
-  fragments: true
+# Hide GitHub link
+github:
+  is_project_page: false
 
-# UVU Colors
-colors:
-  primary: "#275D38"    # UVU Green
-  secondary: "#FFDB05"  # UVU Yellow
-  dark: "#1A4027"      # Dark Green
-  light: "#F5F5F5"     # Light Gray
-  text: "#333333"      # Dark Gray
-
-# Theme Customization
-callouts:
-  note:
-    color: "#275D38"
-  warning:
-    color: "#FFDB05"
-
-# Just the Docs Theme Settings
-color_scheme: light
-search_enabled: true
-heading_anchors: true
-aux_links:
-  "Apply Now":
-    - "https://www.uvu.edu/admissions/"
-aux_links_new_tab: true
-
-# Theme-specific Colors
-footer_content: "Copyright &copy; 2024 Utah Valley University Computer Science Department"
-
-# Custom CSS
-gh_edit_link: false
-search.button: true
-logo: "/assets/images/UVU_logo.png"
+# Basic settings
+markdown: kramdown
 
 # Site Information
 show_downloads: false
@@ -173,7 +107,6 @@ keywords: >-
 google_analytics: # your Google Analytics tracking ID
 
 # Build settings
-markdown: kramdown
 sass:
   style: compressed 
 
