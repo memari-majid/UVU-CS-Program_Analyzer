@@ -2,45 +2,122 @@
 layout: default
 ---
 
-# 🎮 Your Future in Tech Starts at UVU!
+<div class="hero-section">
+    <div class="container">
+        <h1 class="display-4">🎮 Your Future in Tech Starts at UVU!</h1>
+        <p class="lead">Shape the future with cutting-edge technology education at Utah Valley University.</p>
+    </div>
+</div>
 
-Shape the future with cutting-edge technology education at Utah Valley University.
+<div class="container">
+    <section class="mb-5">
+        <h2 class="section-title">Why Choose UVU Computer Science?</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-code-slash feature-icon"></i>
+                        <h5 class="card-title">No Experience Needed</h5>
+                        <p class="card-text">Start your tech journey from any background - no coding experience required!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-graph-up-arrow feature-icon"></i>
+                        <h5 class="card-title">85% Job Placement</h5>
+                        <p class="card-text">Our graduates find jobs within 6 months of graduation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-laptop feature-icon"></i>
+                        <h5 class="card-title">Remote Work Ready</h5>
+                        <p class="card-text">72% of tech jobs offer remote work options</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-## 🌟 Why Choose UVU Computer Science?
+    <section class="mb-5">
+        <h2 class="section-title">Our Programs</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3>Computer Science (BS)</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Build apps and games</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Starting Pay: $65,000 - $95,000</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>26% growth through 2032</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3>AI & Data Science (BS)</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Work with AI and big data</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Starting Pay: $75,000 - $110,000</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>41% annual growth</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3>Software Engineering (BS)</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Design large-scale systems</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Starting Pay: $70,000 - $100,000</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>33% growth rate</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-- **No coding experience needed** to start
-- **85% of our graduates** find jobs within 6 months
-- **Learn the hottest tech** including AI and cloud computing
-- **Remote work available** in 72% of tech jobs
-- **Diverse career options** in gaming, AI, apps, and more!
+    <section class="mb-5">
+        <h2 class="section-title">The Future is Incredible! (2025+)</h2>
+        <div class="card">
+            <div class="card-body">
+                <h3><i class="bi bi-rocket-takeoff me-2"></i>The Stargate Project</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-currency-dollar text-success me-2"></i><strong>$500 Billion</strong> investment announced</li>
+                            <li><i class="bi bi-people-fill text-success me-2"></i><strong>Thousands</strong> of new tech jobs coming</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-building text-success me-2"></i><strong>Major companies</strong> like Microsoft, NVIDIA</li>
+                            <li><i class="bi bi-geo-alt-fill text-success me-2"></i><strong>Multiple tech campuses</strong> planned</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 
-## 🎓 Our Programs
-
-### Computer Science (BS)
-- **Build the future**: Create apps, games, and software
-- **Starting Pay**: $65,000 - $95,000
-- **Job Growth**: 26% through 2032
-- **Cool Jobs**: Software Engineer, Game Developer, Tech Lead
-
-### AI & Data Science (BS)
-- **Work with AI**: Build smart systems and analyze data
-- **Starting Pay**: $75,000 - $110,000
-- **Growth**: 41% annual growth
-- **Exciting Jobs**: AI Developer, Data Scientist, ML Engineer
-
-### Software Engineering (BS)
-- **Build Big Things**: Design systems used by millions
-- **Starting Pay**: $70,000 - $100,000
-- **Great Career**: 33% growth rate
-- **Amazing Jobs**: Software Architect, Tech Leader
-
-## 🚀 The Future is Incredible! (2025+)
-
-### The Stargate Project
-- **$500 Billion** investment announced
-- **Thousands** of new tech jobs coming
-- **Major companies** like Microsoft, NVIDIA, and OpenAI
-- **Multiple tech campuses** planned across USA
+<section class="py-5" style="background-color: var(--uvu-light-gray);">
+    <div class="container">
+        <h2 class="section-title">Ready to Join Us?</h2>
+        <div class="text-center">
+            <a href="https://www.uvu.edu/admissions/" class="btn btn-success btn-lg">Apply Now</a>
+            <p class="mt-3">Shape the future with UVU Computer Science!</p>
+        </div>
+    </div>
+</section>
 
 ## 🏔️ Why Silicon Slopes Rocks!
 

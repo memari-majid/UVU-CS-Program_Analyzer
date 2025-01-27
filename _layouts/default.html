@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <style>
         /* UVU Colors */
         :root {
             --uvu-green: #275D38;
             --uvu-yellow: #FFDB05;
             --uvu-dark-green: #1A4027;
+            --uvu-light-gray: #F5F5F5;
+        }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
         }
         
         .navbar {
             background-color: var(--uvu-green) !important;
-            padding: 0.5rem 1rem;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         
         .footer {
@@ -23,24 +30,100 @@
             border-top: 4px solid var(--uvu-yellow);
         }
         
+        .nav-link {
+            font-weight: 500;
+            padding: 0.5rem 1rem !important;
+            transition: color 0.3s ease;
+        }
+        
         .nav-link:hover {
             color: var(--uvu-yellow) !important;
         }
 
         .uvu-logo {
-            height: 40px;
+            height: 50px;
             width: auto;
-            margin-right: 10px;
+            margin-right: 15px;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, var(--uvu-green), var(--uvu-dark-green));
+            color: white;
+            padding: 4rem 0;
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            height: 300px;
+            background: var(--uvu-yellow);
+            opacity: 0.1;
+            border-radius: 50%;
+            transform: translate(100px, 100px);
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .section-title {
+            color: var(--uvu-green);
+            position: relative;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: var(--uvu-yellow);
+        }
+
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: white;
+            text-decoration: none;
+            margin-right: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--uvu-yellow);
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            color: var(--uvu-green);
+            margin-bottom: 1rem;
         }
     </style>
     {% seo %}
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="{{ '/' | relative_url }}">
-                <img src="https://www.uvu.edu/brand/images/logos/uvu-logo-white.png" alt="UVU Logo" class="uvu-logo">
+                <img src="{{ '/UVU_logo.png' | relative_url }}" alt="UVU Logo" class="uvu-logo">
                 <span class="ms-2 d-none d-md-inline text-white">Computer Science</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -59,7 +142,7 @@
     </nav>
 
     <!-- Main Content -->
-    <main class="container my-5">
+    <main>
         {{ content }}
     </main>
 
@@ -68,43 +151,49 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12">
-                    <img src="https://www.uvu.edu/brand/images/logos/uvu-logo-white.png" alt="UVU Logo" height="30">
+                    <img src="{{ '/UVU_logo.png' | relative_url }}" alt="UVU Logo" height="40">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <h5>Contact Us</h5>
+                    <h5><i class="bi bi-geo-alt-fill me-2"></i>Contact Us</h5>
                     <p>{{ site.department.name }}<br>
                     {{ site.department.building }}, {{ site.department.room }}<br>
                     {{ site.department.address }}<br>
-                    Phone: {{ site.department.phone }}<br>
-                    Email: <a href="mailto:{{ site.department.email }}" class="text-white">{{ site.department.email }}</a></p>
+                    <i class="bi bi-telephone-fill me-2"></i>{{ site.department.phone }}<br>
+                    <i class="bi bi-envelope-fill me-2"></i><a href="mailto:{{ site.department.email }}" class="text-white">{{ site.department.email }}</a></p>
                 </div>
                 <div class="col-md-4">
-                    <h5>Quick Links</h5>
+                    <h5><i class="bi bi-link-45deg me-2"></i>Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://www.uvu.edu/cs" class="text-white">Department Website</a></li>
-                        <li><a href="https://www.uvu.edu/catalog/current/departments/computer-science/" class="text-white">Course Catalog</a></li>
-                        <li><a href="https://www.uvu.edu/admissions/" class="text-white">Admissions</a></li>
-                        <li><a href="https://www.uvu.edu/financialaid/" class="text-white">Financial Aid</a></li>
+                        <li><a href="https://www.uvu.edu/cs" class="text-white"><i class="bi bi-arrow-right me-2"></i>Department Website</a></li>
+                        <li><a href="https://www.uvu.edu/catalog/current/departments/computer-science/" class="text-white"><i class="bi bi-arrow-right me-2"></i>Course Catalog</a></li>
+                        <li><a href="https://www.uvu.edu/admissions/" class="text-white"><i class="bi bi-arrow-right me-2"></i>Admissions</a></li>
+                        <li><a href="https://www.uvu.edu/financialaid/" class="text-white"><i class="bi bi-arrow-right me-2"></i>Financial Aid</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h5>Follow Us</h5>
+                    <h5><i class="bi bi-people-fill me-2"></i>Follow Us</h5>
                     <div class="social-links">
                         {% if site.social_links.github %}
-                        <a href="https://github.com/{{ site.social_links.github }}" class="text-white me-3">GitHub</a>
+                        <a href="https://github.com/{{ site.social_links.github }}">
+                            <i class="bi bi-github"></i> GitHub
+                        </a>
                         {% endif %}
                         {% if site.social_links.linkedin %}
-                        <a href="https://linkedin.com/company/{{ site.social_links.linkedin }}" class="text-white me-3">LinkedIn</a>
+                        <a href="https://linkedin.com/company/{{ site.social_links.linkedin }}">
+                            <i class="bi bi-linkedin"></i> LinkedIn
+                        </a>
                         {% endif %}
                         {% if site.social_links.twitter %}
-                        <a href="https://twitter.com/{{ site.social_links.twitter }}" class="text-white me-3">Twitter</a>
+                        <a href="https://twitter.com/{{ site.social_links.twitter }}">
+                            <i class="bi bi-twitter-x"></i> Twitter
+                        </a>
                         {% endif %}
                     </div>
                 </div>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-4">
                 <div class="col text-center">
                     <small>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</small>
                 </div>
