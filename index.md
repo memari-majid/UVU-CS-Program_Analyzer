@@ -1,6 +1,7 @@
 ---
 layout: default
-title: UVU Computer Science - Your Future in Tech
+title: Home
+nav_order: 1
 ---
 
 <div class="hero-section" markdown="1">
