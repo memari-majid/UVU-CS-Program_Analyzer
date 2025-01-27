@@ -50,6 +50,8 @@ Join Utah Valley University's Computer Science Department and become part of the
 - State-of-the-art Facilities
 - Expert Faculty
 
+<div id="contact-us">
+
 ## Contact Us
 
 - Email: [cs@uvu.edu](mailto:cs@uvu.edu)
@@ -57,4 +59,5 @@ Join Utah Valley University's Computer Science Department and become part of the
 - Visit: Room CS-520
 - Web: [uvu.edu/cs](https://www.uvu.edu/cs)
 
-[Apply Now](https://www.uvu.edu/admissions/){: .cta-button} 
+[Apply Now](https://www.uvu.edu/admissions/){: .cta-button}
+</div> 
