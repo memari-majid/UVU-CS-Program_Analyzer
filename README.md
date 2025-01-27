@@ -1,10 +1,8 @@
-# UVU Computer Science Programs Analyzer
+# UVU Computer Science Programs
 
-📚 **[View Our Interactive Website](https://memari-majid.github.io/UVU-CS-Program_Analyzer)**
+📚 **[Visit Our Website](https://memari-majid.github.io/UVU-CS-Program_Analyzer/)**
 
-Welcome to the UVU Computer Science Programs guide! This project provides comprehensive information about Computer Science programs at Utah Valley University.
-
-# 🎮 Your Future in Tech Starts at UVU!
+Welcome to the UVU Computer Science Programs website! This repository contains information about Computer Science programs at Utah Valley University.
 
 ## 🌟 Why Choose UVU Computer Science?
 - **No coding experience needed** to start
@@ -89,3 +87,54 @@ Silicon Slopes is Utah's booming tech hub - our very own version of Silicon Vall
 - Web: [uvu.edu/cs](https://www.uvu.edu/cs)
 
 **Ready to shape the future?** Join UVU Computer Science and be part of the next tech revolution! 🚀
+
+## 🌐 Website Features
+
+- Comprehensive program information
+- Career prospects and salary data
+- Industry connections
+- Application resources
+
+## 🛠 Technical Details
+
+This website is built using:
+- GitHub Pages
+- Jekyll
+- Bootstrap 5
+- Custom UVU theme
+
+## 📂 Repository Structure
+
+```
+.
+├── _layouts/           # Layout templates
+├── assets/            # Static assets
+├── _config.yml        # Jekyll configuration
+├── index.md           # Homepage content
+├── programs.md        # Programs information
+└── README.md          # This file
+```
+
+## 🚀 Local Development
+
+1. Clone the repository
+2. Install Jekyll and dependencies
+3. Run `bundle exec jekyll serve`
+4. Visit `http://localhost:4000`
+
+## 📝 Contributing
+
+If you'd like to contribute to this project:
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
+
+## 📞 Contact
+
+- Department: [cs@uvu.edu](mailto:cs@uvu.edu)
+- Phone: (801) 863-8218
+- Location: CS-520
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

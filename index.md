@@ -1,5 +1,6 @@
 ---
 layout: default
+title: UVU Computer Science - Your Future in Tech!
 ---
 
 <div class="hero-section">
@@ -101,6 +102,48 @@ layout: default
                         <ul class="list-unstyled">
                             <li><i class="bi bi-building text-success me-2"></i><strong>Major companies</strong> like Microsoft, NVIDIA</li>
                             <li><i class="bi bi-geo-alt-fill text-success me-2"></i><strong>Multiple tech campuses</strong> planned</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mb-5">
+        <h2 class="section-title">Silicon Slopes Tech Hub</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3><i class="bi bi-building-fill me-2"></i>Tech Paradise</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Over 400 tech companies</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Major players like Adobe, Qualtrics</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Perfect for internships</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3><i class="bi bi-heart-fill me-2"></i>Amazing Lifestyle</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>25% lower cost of living</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>5-minute commute</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Mountains and outdoors nearby</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3><i class="bi bi-mortarboard-fill me-2"></i>Perfect for Students</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>#4 in tech job growth</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Local connections</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i>Stay close to home</li>
                         </ul>
                     </div>
                 </div>
