@@ -7,11 +7,32 @@ url: ""
 # Theme settings
 theme: reveal-jekyll
 reveal:
-  transition: slide
-  theme: white
-  highlight_theme: github
-  width: 1200
-  height: 800
+  transition: convex
+  theme: moon
+  highlight_theme: monokai
+  width: 1400
+  height: 900
+  margin: 0.04
+  controls: true
+  progress: true
+  slideNumber: true
+  keyboard: true
+  overview: true
+  center: true
+  touch: true
+  loop: false
+  rtl: false
+  fragments: true
+  embedded: false
+  help: true
+  showNotes: false
+  autoSlide: 0
+  autoSlideStoppable: true
+  mouseWheel: false
+  hideAddressBar: true
+  previewLinks: false
+  transition: 'slide'
+  backgroundTransition: 'fade'
 
 # Reveal.js settings
 reveal_theme: white
@@ -161,3 +182,8 @@ nav_external_links:
   - title: UVU CS Website
     url: https://www.uvu.edu/cs/
     hide_icon: false 
+
+# Custom Styling
+reveal_theme_path: reveal.js/css/theme/
+reveal_css_path: reveal.js/css
+reveal_js_path: reveal.js/js 
