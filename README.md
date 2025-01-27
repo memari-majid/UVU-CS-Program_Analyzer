@@ -56,6 +56,15 @@ Discover an **exciting world of opportunities** where technology meets creativit
   - Tech Giants: Google AI, Microsoft Azure AI, Meta AI
   - Utah Companies: Adobe, Qualtrics, Domo
   - Research Institutions
+- **Salary Ranges by Specialization**:
+  - AI/ML Engineer: $120,000 - $250,000
+  - Data Scientist with AI Focus: $115,000 - $220,000
+  - AI Research Engineer: $130,000 - $275,000
+  - MLOps Engineer: $125,000 - $230,000
+- **Total Compensation** (including bonuses & stock):
+  - Entry Level: $140,000 - $250,000
+  - Mid-Level: $180,000 - $350,000
+  - Senior Level: $250,000 - $500,000+
 
 ### 5. **Computer Science Education (BS)**
 - **Focus Areas**:
@@ -122,9 +131,30 @@ Discover an **exciting world of opportunities** where technology meets creativit
 - **91.3% of companies** actively hiring AI talent (IBM Global AI Adoption Index, 2024)
 
 ### AI Salary Trends (Q1 2024)
-- Entry-level AI Engineers: **$105,000 - $135,000** (Utah DWS, 2024)
-- ML Specialists: **$120,000 - $180,000** (Dice Tech Salary Report, 2024)
-- AI Research Scientists: **$140,000 - $225,000** (Glassdoor Tech Jobs Report, 2024)
+- Entry-level AI Engineers: **$120,000 - $180,000** (Indeed.com, 2024)
+- ML Specialists: **$140,000 - $210,000** (Levels.fyi, 2024)
+- AI Research Scientists: **$150,000 - $300,000+** (Hired.com State of Tech Salaries, 2024)
+- AI Architects: **$180,000 - $350,000+** (Blind Tech Salary Data, 2024)
+
+### AI & Machine Learning Career Paths
+- **Starting Salary Range**: $120,000 - $200,000
+- **Mid-Level**: $160,000 - $280,000
+- **Senior Level**: $200,000 - $400,000+
+- **Additional Compensation**:
+  - Stock Options: $50,000 - $300,000 annually
+  - Performance Bonuses: 15-25% of base salary
+  - Sign-on Bonuses: $20,000 - $100,000
+
+### Industry-Specific AI Salaries
+- **Tech Giants** (FAANG + Microsoft):
+  - Entry Level: $150,000 - $220,000
+  - Senior Level: $250,000 - $500,000+
+- **Silicon Slopes Companies**:
+  - Entry Level: $120,000 - $180,000
+  - Senior Level: $200,000 - $350,000
+- **Startups** (including equity):
+  - Base: $130,000 - $200,000
+  - Equity: 0.1% - 2% (can be worth $500,000+ at exit)
 
 ### Market Demand Statistics
 - **93.5%** of tech companies in Utah plan to expand AI teams (Silicon Slopes Survey, 2024)
@@ -280,8 +310,8 @@ Discover an **exciting world of opportunities** where technology meets creativit
 - **Job Growth**: 25% (BLS Forecast 2022-2032)
 - **Key Employers**: 
   - Silicon Slopes Companies
-  - Research Institutions
-  - Tech Startups
+- Research Institutions
+- Tech Startups
 - **Career Paths**: Software Engineer, AI Developer, Cloud Architect
 
 ### 3. Computer Science Education (BS)
@@ -308,7 +338,7 @@ Discover an **exciting world of opportunities** where technology meets creativit
     - Algorithms and Data Structures
     - Linear Algebra
     - Statistics
-    - Programming
+- Programming
 
 - **Core Curriculum** (12 Credits):
   - Advanced Algorithms for AI
