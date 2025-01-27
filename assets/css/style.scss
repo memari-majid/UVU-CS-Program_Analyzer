@@ -3,7 +3,6 @@
 /* UVU Colors */
 :root {
   --uvu-green: #275D38;
-  --uvu-yellow: #FFDB05;
   --uvu-dark: #1A4027;
 }
 
@@ -30,11 +29,6 @@ header {
   margin-bottom: 30px;
   box-shadow: 0 2px 15px rgba(0,0,0,0.1);
   border-left: 5px solid var(--uvu-green);
-  transition: transform 0.3s ease;
-
-  &:hover {
-    transform: translateY(-5px);
-  }
 }
 
 .cta-button {
@@ -46,12 +40,6 @@ header {
   border-radius: 50px;
   font-weight: bold;
   margin-top: 20px;
-
-  &:hover {
-    background: var(--uvu-dark);
-    transform: translateY(-2px);
-    text-decoration: none;
-  }
 }
 
 /* Contact Section */
