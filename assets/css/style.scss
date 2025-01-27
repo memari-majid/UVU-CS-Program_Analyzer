@@ -1,0 +1,136 @@
+@import "{{ site.theme }}";
+
+// UVU Colors
+$uvu-green: #275D38;
+$uvu-yellow: #FFDB05;
+$uvu-dark-green: #1A4027;
+$uvu-light-gray: #F5F5F5;
+$uvu-text: #333333;
+
+// Global Styles
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: $uvu-text;
+}
+
+// Headers
+h1, h2, h3, h4, h5, h6 {
+    color: $uvu-green;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+// Links
+a {
+    color: $uvu-green;
+    text-decoration: none;
+    &:hover {
+        color: $uvu-dark-green;
+        text-decoration: underline;
+    }
+}
+
+// Cards
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    margin-bottom: 1.5rem;
+    
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+    
+    .card-title {
+        color: $uvu-green;
+        font-weight: bold;
+    }
+}
+
+// Program Cards
+.program-card {
+    border-left: 4px solid $uvu-green;
+    padding: 1.5rem;
+    background: white;
+    margin-bottom: 1.5rem;
+}
+
+// Buttons
+.btn-primary {
+    background-color: $uvu-green;
+    border-color: $uvu-green;
+    &:hover {
+        background-color: $uvu-dark-green;
+        border-color: $uvu-dark-green;
+    }
+}
+
+// Navigation
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-link {
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    &:hover {
+        color: $uvu-yellow !important;
+    }
+}
+
+// Footer
+.footer {
+    border-top: 4px solid $uvu-yellow;
+    
+    a {
+        &:hover {
+            color: $uvu-yellow !important;
+            text-decoration: none;
+        }
+    }
+}
+
+// Custom Components
+.uvu-accent-bar {
+    height: 4px;
+    background: $uvu-yellow;
+    width: 50px;
+    margin: 1rem 0;
+}
+
+// Responsive Images
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// Lists
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    
+    li {
+        margin-bottom: 0.5rem;
+        
+        &:before {
+            content: "•";
+            color: $uvu-green;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    }
+}
+
+// Section Spacing
+.section {
+    padding: 4rem 0;
+    
+    &:nth-child(even) {
+        background-color: $uvu-light-gray;
+    }
+} 
