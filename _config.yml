@@ -32,15 +32,15 @@ colors:
 # Navigation
 nav_pages:
   - title: Programs
-    url: /programs
+    url: https://www.uvu.edu/catalog/current/departments/computer-science/
   - title: Faculty
-    url: /faculty
+    url: https://www.uvu.edu/directory/department/computer-science
   - title: Research
-    url: /research
+    url: https://www.uvu.edu/cs/research/
   - title: Resources
-    url: /resources
+    url: https://www.uvu.edu/cs/resources/
   - title: Contact
-    url: /contact
+    url: https://www.uvu.edu/cs/contact/
 
 # Social Media
 social_links:

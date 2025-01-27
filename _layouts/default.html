@@ -133,7 +133,7 @@
                 <ul class="navbar-nav ms-auto">
                     {% for item in site.nav_pages %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                        <a class="nav-link" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -166,10 +166,12 @@
                 <div class="col-md-4">
                     <h5><i class="bi bi-link-45deg me-2"></i>Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://www.uvu.edu/cs" class="text-white"><i class="bi bi-arrow-right me-2"></i>Department Website</a></li>
-                        <li><a href="https://www.uvu.edu/catalog/current/departments/computer-science/" class="text-white"><i class="bi bi-arrow-right me-2"></i>Course Catalog</a></li>
-                        <li><a href="https://www.uvu.edu/admissions/" class="text-white"><i class="bi bi-arrow-right me-2"></i>Admissions</a></li>
-                        <li><a href="https://www.uvu.edu/financialaid/" class="text-white"><i class="bi bi-arrow-right me-2"></i>Financial Aid</a></li>
+                        <li><a href="https://www.uvu.edu/cs" class="text-white" target="_blank" rel="noopener"><i class="bi bi-arrow-right me-2"></i>Department Website</a></li>
+                        <li><a href="https://www.uvu.edu/catalog/current/departments/computer-science/" class="text-white" target="_blank" rel="noopener"><i class="bi bi-arrow-right me-2"></i>Programs & Courses</a></li>
+                        <li><a href="https://www.uvu.edu/cs/student-resources/" class="text-white" target="_blank" rel="noopener"><i class="bi bi-arrow-right me-2"></i>Student Resources</a></li>
+                        <li><a href="https://www.uvu.edu/cs/internships/" class="text-white" target="_blank" rel="noopener"><i class="bi bi-arrow-right me-2"></i>Internships</a></li>
+                        <li><a href="https://www.uvu.edu/cs/clubs/" class="text-white" target="_blank" rel="noopener"><i class="bi bi-arrow-right me-2"></i>Student Clubs</a></li>
+                        <li><a href="https://www.uvu.edu/admissions/" class="text-white" target="_blank" rel="noopener"><i class="bi bi-arrow-right me-2"></i>Apply Now</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
