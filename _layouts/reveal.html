@@ -2,12 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/moon.min.css">
+
+    <!-- Reveal.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/moon.css">
+
+    <!-- Additional CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="{{ '/assets/css/custom.scss' | relative_url }}">
+    
+    <!-- Custom CSS -->
+    <style>
+        .reveal {
+            font-family: 'Poppins', sans-serif;
+        }
+        .reveal h1, .reveal h2, .reveal h3 {
+            font-family: 'Poppins', sans-serif;
+            color: #275D38;
+        }
+        .reveal .slides {
+            text-align: left;
+        }
+        .reveal .progress {
+            color: #275D38;
+        }
+        /* Add your custom CSS here */
+    </style>
 </head>
 <body>
     <div class="reveal">
@@ -16,19 +39,32 @@
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.js"></script>
+    <!-- Reveal.js Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/markdown/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/zoom/zoom.js"></script>
+
     <script>
         Reveal.initialize({
             hash: true,
-            transition: 'convex',
+            transition: 'slide',
             backgroundTransition: 'fade',
             controls: true,
             progress: true,
             center: true,
-            hash: true,
             width: 1400,
             height: 900,
             margin: 0.04,
+            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom ],
+            // UVU theme colors
+            theme: 'moon',
+            // Custom settings
+            slideNumber: 'c/t',
+            showSlideNumber: 'all',
+            autoPlayMedia: true,
+            preloadIframes: true
         });
     </script>
 </body>

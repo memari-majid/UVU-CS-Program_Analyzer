@@ -1,0 +1,71 @@
+/* UVU Colors */
+:root {
+    --uvu-green: #275D38;
+    --uvu-yellow: #FFDB05;
+    --uvu-dark: #1A4027;
+    --uvu-light: #F5F5F5;
+}
+
+.reveal {
+    font-family: 'Poppins', sans-serif;
+}
+
+.reveal .slides {
+    text-align: left;
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+    color: var(--uvu-green);
+    font-family: 'Poppins', sans-serif;
+    text-transform: none;
+}
+
+.program-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.program-item {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.feature-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background: var(--uvu-yellow);
+    color: var(--uvu-green);
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark background overrides */
+.reveal .slides section[data-background-gradient] h1,
+.reveal .slides section[data-background-gradient] h2,
+.reveal .slides section[data-background-gradient] h3,
+.reveal .slides section[data-background-gradient] p,
+.reveal .slides section[data-background-gradient] li {
+    color: white;
+} 
