@@ -79,37 +79,52 @@
 
 ### Transformative Forces in Tech
 
-#### COVID-19 Impact (2020-Present)
-- **Remote Work Revolution**
-  - 82% of tech companies adopted hybrid/remote work models
-  - 3.5x increase in remote tech job postings
-  - Expanded job opportunities beyond geographic boundaries
-  
-- **Digital Transformation Acceleration**
-  - 5-year digital adoption achieved in just 8 weeks
-  - 75% increase in cloud computing demand
-  - 92% increase in e-commerce integration projects
-  
-- **New Tech Priorities**
-  - Cybersecurity importance surged 89%
-  - Collaboration tools adoption up 300%
-  - Healthcare tech investment increased 250%
+#### Tech Industry Dynamics
+- **Tech Layoffs & Recovery**
+  - 2022-2023: Major tech companies laid off 260,000+ employees
+  - Q4 2023: 80% of laid-off tech workers found new roles within 3 months
+  - 2024: Tech hiring rebounding, focusing on AI and cloud roles
+  - Startups and mid-sized companies leading new hiring wave
 
-#### Generative AI Revolution (2022-Present)
-- **Industry Disruption**
-  - 85% of companies actively implementing GenAI
-  - 40% productivity gains reported in software development
-  - $90B invested in AI startups since 2022
-  
-- **Job Market Evolution**
-  - New roles: Prompt Engineer, AI Ethics Officer, AI Systems Architect
-  - 375% increase in AI-specific job postings
-  - 89% of tech roles now require AI literacy
-  
-- **Skills Transformation**
-  - Traditional coding roles evolving to AI-assisted development
-  - 92% of developers using AI coding assistants
-  - High demand for AI/ML expertise across all tech roles
+- **Remote Work Evolution**
+  - 2020: Emergency shift to 95% remote work
+  - 2021: Companies invested $317B in remote infrastructure
+  - 2022: 72% of tech companies made remote options permanent
+  - 2023-2024: Hybrid model dominates (3 days remote/2 days office)
+  - Current: 85% of tech roles offer remote/hybrid options
+  - Salary adjustments: +15% for remote-first positions
+
+#### Generative AI Investment Surge
+- **Corporate Investment**
+  - 2022: $48B invested in GenAI startups
+  - 2023: $110B total GenAI investments
+  - 2024: Projected $200B+ investment
+  - Major players (Microsoft, Google, Meta) each committed $50B+
+
+- **Startup Landscape**
+  - 3,400+ new GenAI startups since 2022
+  - Average seed funding increased by 250%
+  - GenAI unicorns valued at $4.2B on average
+  - 89% of tech startups incorporating GenAI
+
+- **Impact on Jobs**
+  - Traditional roles being augmented, not replaced
+  - 40% productivity boost with AI tools
+  - New roles emerging weekly
+  - Salary premiums for AI expertise: 20-45%
+
+#### Market Resilience
+- **Despite Layoffs**:
+  - Overall tech job postings up 12% in 2024
+  - AI-related positions increased 312%
+  - Remote job stability increased 28%
+  - Average time-to-hire decreased to 18 days
+
+- **Emerging Opportunities**:
+  - AI infrastructure roles up 425%
+  - Cloud security positions up 245%
+  - Remote-first companies growing 2.5x faster
+  - Utah tech sector remained stable through layoffs
 
 ### Market Growth
 - AI market reaching $407B by 2027 ([Grand View Research](https://www.grandviewresearch.com))
