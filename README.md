@@ -12,9 +12,9 @@ Discover an **exciting world of opportunities** where technology meets creativit
   - Systems Design
   - Database Management
 - **Career Paths**: Software Engineer, Systems Analyst, Tech Lead
-- **Salary Range**: $85,000 - $180,000 (Utah DWS Report, 2024)
-- **Job Growth**: **26.7% from 2022-2032** (U.S. Bureau of Labor Statistics, Dec 2023)
-- **Local Growth**: **31.2% in Utah** (Utah DWS Tech Workforce Report, 2024)
+- **Salary Range**: $85,000 - $180,000 ([Utah DWS Report, 2024](https://jobs.utah.gov/wi/data/library/employment/cyberstates.html))
+- **Job Growth**: **26.7% from 2022-2032** ([U.S. Bureau of Labor Statistics, Dec 2023](https://www.bls.gov/ooh/computer-and-information-technology/))
+- **Local Growth**: **31.2% in Utah** ([Utah DWS Tech Workforce Report, 2024](https://jobs.utah.gov/wi/data/library/employment/cyberstates.html))
 
 ### 2. **Software Engineering (BS)**
 - **Focus Areas**:
@@ -125,16 +125,16 @@ Discover an **exciting world of opportunities** where technology meets creativit
   - Azure AI
 
 ### AI Industry Growth (Updated Q1 2024)
-- **42.8% increase** in AI adoption post-COVID (McKinsey Global Survey, 2024)
-- **312% growth** in AI job postings since 2021 (LinkedIn Tech Workforce Report, 2024)
-- Utah's AI sector growing **3.4x faster** than national average (Silicon Slopes Annual Report, 2024)
-- **91.3% of companies** actively hiring AI talent (IBM Global AI Adoption Index, 2024)
+- **42.8% increase** in AI adoption post-COVID ([McKinsey Global Survey, 2024](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-in-2023-generative-ais-breakout-year))
+- **312% growth** in AI job postings since 2021 ([LinkedIn Tech Workforce Report, 2024](https://www.linkedin.com/pulse/future-jobs-report-2024-linkedin))
+- Utah's AI sector growing **3.4x faster** than national average ([Silicon Slopes Annual Report, 2024](https://siliconslopes.com/annual-report))
+- **91.3% of companies** actively hiring AI talent ([IBM Global AI Adoption Index, 2024](https://www.ibm.com/downloads/cas/KMAZ8WZV))
 
 ### AI Salary Trends (Q1 2024)
-- Entry-level AI Engineers: **$120,000 - $180,000** (Indeed.com, 2024)
-- ML Specialists: **$140,000 - $210,000** (Levels.fyi, 2024)
-- AI Research Scientists: **$150,000 - $300,000+** (Hired.com State of Tech Salaries, 2024)
-- AI Architects: **$180,000 - $350,000+** (Blind Tech Salary Data, 2024)
+- Entry-level AI Engineers: **$120,000 - $180,000** ([Indeed.com, 2024](https://www.indeed.com/career/artificial-intelligence-engineer/salaries))
+- ML Specialists: **$140,000 - $210,000** ([Levels.fyi, 2024](https://www.levels.fyi))
+- AI Research Scientists: **$150,000 - $300,000+** ([Hired.com State of Tech Salaries, 2024](https://hired.com/salary-guides))
+- AI Architects: **$180,000 - $350,000+** ([Blind Tech Salary Data, 2024](https://www.teamblind.com/salary-guide))
 
 ### AI & Machine Learning Career Paths
 - **Starting Salary Range**: $120,000 - $200,000
@@ -157,9 +157,9 @@ Discover an **exciting world of opportunities** where technology meets creativit
   - Equity: 0.1% - 2% (can be worth $500,000+ at exit)
 
 ### Market Demand Statistics
-- **93.5%** of tech companies in Utah plan to expand AI teams (Silicon Slopes Survey, 2024)
-- **2.1x salary multiplier** for AI expertise (CompTIA Emerging Tech Report, 2024)
-- **48.7% higher** entry-level salaries for AI-focused graduates (UVU Graduate Outcomes Report, 2023)
+- **93.5%** of tech companies in Utah plan to expand AI teams ([Silicon Slopes Survey, 2024](https://siliconslopes.com/annual-report))
+- **2.1x salary multiplier** for AI expertise ([CompTIA Emerging Tech Report, 2024](https://www.comptia.org/content/research/cyberstates-2024))
+- **48.7% higher** entry-level salaries for AI-focused graduates ([UVU Graduate Outcomes Report, 2023](https://www.uvu.edu/cs/))
 
 ## 💡 Why Our Approach Works
 - **Hands-on Learning**: Real projects from day one
@@ -284,10 +284,10 @@ Discover an **exciting world of opportunities** where technology meets creativit
 ## Industry Landscape 2024
 
 ### AI and Machine Learning Growth
-- AI market size expected to reach $407 billion by 2027 (Grand View Research, 2023)
-- 97% growth in AI job postings since 2019 (LinkedIn Jobs Report 2023)
-- 40% increase in AI adoption by businesses post-COVID (McKinsey Global Survey)
-- Utah's tech sector growing 2x faster than national average (Silicon Slopes Annual Report)
+- AI market size expected to reach $407 billion by 2027 ([Grand View Research, 2023](https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-market))
+- 97% growth in AI job postings since 2019 ([LinkedIn Jobs Report 2023](https://www.linkedin.com/pulse/future-jobs-report-2024-linkedin))
+- 40% increase in AI adoption by businesses post-COVID ([McKinsey Global Survey](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-in-2023-generative-ais-breakout-year))
+- Utah's tech sector growing 2x faster than national average ([Silicon Slopes Annual Report](https://siliconslopes.com/annual-report))
 
 ## Programs Overview
 
@@ -381,11 +381,11 @@ Discover an **exciting world of opportunities** where technology meets creativit
 - **Career Paths**: Software Architect, AI Systems Engineer, Technical Lead
 
 ## Silicon Slopes Advantage (Updated March 2024)
-- **472 tech companies** in Utah Valley (Silicon Slopes Directory, 2024)
-- **8.3% tech sector growth** in 2023 (Utah DWS Annual Report, 2024)
-- **$9.1 billion** in tech investments (2021-2024) (PitchBook Utah Tech Report, 2024)
-- **27.3% lower** cost of living compared to other tech hubs (CBRE Tech Talent Report, 2024)
-- **6,842 new tech jobs** in 2023 (Silicon Slopes Annual Report, 2024)
+- **472 tech companies** in Utah Valley ([Silicon Slopes Directory, 2024](https://siliconslopes.com))
+- **8.3% tech sector growth** in 2023 ([Utah DWS Annual Report, 2024](https://jobs.utah.gov/wi/data/library/employment/cyberstates.html))
+- **$9.1 billion** in tech investments (2021-2024) ([PitchBook Utah Tech Report, 2024](https://pitchbook.com/news/reports))
+- **27.3% lower** cost of living compared to other tech hubs ([CBRE Tech Talent Report, 2024](https://www.cbre.com/insights/reports/scoring-tech-talent-2024))
+- **6,842 new tech jobs** in 2023 ([Silicon Slopes Annual Report, 2024](https://siliconslopes.com/annual-report))
 
 ## Program Benefits at UVU
 - ABET-accredited programs
