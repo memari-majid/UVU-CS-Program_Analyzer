@@ -1,15 +1,119 @@
 # 🚀 Your Future in Tech Starts at UVU!
 
 ## Why Choose Computer Science at UVU?
+Discover an **exciting world of opportunities** where technology meets creativity! At UVU's Computer Science Department, we offer **comprehensive programs** designed to prepare you for the tech industry's most rewarding careers.
 
-Discover an **exciting world of opportunities** where technology meets creativity! We're at the forefront of the **AI revolution**, teaching you not just to use AI, but to **master and create AI solutions**. At UVU, we prepare you for the **most in-demand careers** of today and tomorrow.
+## 🎓 Our Programs
 
-## 🤖 Leading the AI Revolution
-- **AI-Integrated Curriculum**: Every course includes practical AI applications
-- **Hands-on Experience** with tools like ChatGPT, GitHub Copilot, and TensorFlow
-- Learn to **build your own AI models** and applications
-- Stay ahead with **cutting-edge AI tools** and techniques
-- **Adapt and Thrive** in the rapidly evolving tech landscape
+### 1. **Computer Science (BS)**
+- **Focus Areas**: 
+  - Software Development
+  - Algorithms & Problem Solving
+  - Systems Design
+  - Database Management
+- **Career Paths**: Software Engineer, Systems Analyst, Tech Lead
+- **Salary Range**: $85,000 - $180,000
+- **Job Growth**: 25% (Much faster than average!)
+
+### 2. **Software Engineering (BS)**
+- **Focus Areas**:
+  - Large-scale Systems
+  - Enterprise Solutions
+  - Quality Assurance
+  - Project Management
+- **Career Paths**: Software Architect, DevOps Engineer, Technical Lead
+- **Salary Range**: $95,000 - $180,000
+- **Job Growth**: 32%
+
+### 3. **Software Development (BS)**
+- **Focus Areas**:
+  - Full-stack Development
+  - Web Technologies
+  - Mobile Development
+  - Cloud Services
+- **Career Paths**: Full-stack Developer, Mobile Developer, Cloud Developer
+- **Salary Range**: $80,000 - $160,000
+- **Job Growth**: 30%
+
+### 4. **Computational Data Science (BS)**
+- **Focus Areas**:
+  - Data Analytics
+  - Statistical Analysis
+  - Database Systems
+  - Visualization
+- **Career Paths**: Data Scientist, Analytics Engineer, Business Intelligence
+- **Salary Range**: $95,000 - $175,000
+- **Job Growth**: 40%
+
+### 5. **Computer Science Education (BS)**
+- **Focus Areas**:
+  - CS Teaching
+  - Curriculum Development
+  - Educational Technology
+- **Career Paths**: CS Teacher, EdTech Specialist, Curriculum Developer
+- **Salary Range**: $65,000 - $110,000
+- **Benefits**: Summer Breaks, Great Benefits Package
+
+### 6. **Master of Computer Science**
+- **Focus Areas**:
+  - Advanced Computing
+  - Research Methods
+  - Specialized Tracks
+- **Career Paths**: Senior Engineer, Research Scientist, Tech Director
+- **Salary Range**: $115,000 - $200,000+
+
+## 🤖 Our AI Revolution
+
+### AI Integration Across All Programs
+- Every program now includes **AI-focused courses**
+- Learn to use and create AI solutions
+- Master modern AI tools and frameworks
+- Develop AI-powered applications
+
+### New AI Initiatives
+1. **AI Certificate Program**
+   - 18-credit specialized training
+   - Advanced AI algorithms
+   - Machine learning applications
+   - Deep learning projects
+
+2. **AI Lab & Research**
+   - State-of-the-art AI equipment
+   - Research opportunities
+   - Industry partnerships
+   - Real-world AI projects
+
+3. **AI Career Paths**
+   - AI Engineer: $105,000 - $185,000
+   - ML Specialist: $100,000 - $180,000
+   - AI Research Scientist: $120,000 - $200,000+
+
+### AI Tools & Technologies You'll Master
+- **Development Tools**:
+  - GitHub Copilot
+  - ChatGPT
+  - Amazon CodeWhisperer
+- **ML Frameworks**:
+  - TensorFlow
+  - PyTorch
+  - Scikit-learn
+- **Cloud AI Services**:
+  - AWS AI Services
+  - Google Cloud AI
+  - Azure AI
+
+### AI Industry Growth
+- **40% increase** in AI adoption post-COVID
+- **97% growth** in AI job postings
+- Utah's AI sector growing **3x faster** than national average
+- **89% of companies** actively hiring AI talent
+
+## 💡 Why Our Approach Works
+- **Hands-on Learning**: Real projects from day one
+- **Industry Connections**: Work with **400+ tech companies**
+- **Modern Curriculum**: Updated regularly with industry trends
+- **Expert Faculty**: Learn from industry veterans
+- **Career Support**: 85%+ placement rate
 
 ## 🌟 Did You Know?
 - The **average starting salary** for our AI-focused graduates is **$105,000+**
