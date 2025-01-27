@@ -187,3 +187,9 @@ nav_external_links:
 reveal_theme_path: reveal.js/css/theme/
 reveal_css_path: reveal.js/css
 reveal_js_path: reveal.js/js 
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor 
