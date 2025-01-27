@@ -1,4 +1,4 @@
-theme: null
+theme: just-the-docs
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
@@ -21,7 +21,7 @@ callouts:
     color: "#FFDB05"
 
 # Just the Docs Theme Settings
-color_scheme: nil
+color_scheme: light
 search_enabled: true
 heading_anchors: true
 aux_links:
@@ -38,14 +38,10 @@ search.button: true
 logo: "/assets/images/UVU_logo.png"
 
 # Site Information
-title: UVU Computer Science Department
-tagline: Shaping Tomorrow's Tech Leaders
-description: >-
-  Utah Valley University's Computer Science Department offers cutting-edge programs 
-  in software engineering, artificial intelligence, and data science. Join us to 
-  shape the future of technology.
-url: "https://memari-majid.github.io"
-baseurl: "/UVU-CS-Program_Analyzer"
+title: UVU Computer Science
+description: Utah Valley University Computer Science Department
+url: https://cs.uvu.edu
+baseurl: ""
 show_downloads: false
 
 # Department Information
@@ -140,3 +136,9 @@ google_analytics: # your Google Analytics tracking ID
 markdown: kramdown
 sass:
   style: compressed 
+
+# Navigation
+nav_external_links:
+  - title: UVU CS Website
+    url: https://www.uvu.edu/cs/
+    hide_icon: false 
