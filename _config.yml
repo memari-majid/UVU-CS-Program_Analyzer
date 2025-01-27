@@ -1,4 +1,30 @@
 theme: jekyll-theme-cayman
 title: UVU Computer Science Programs
-description: Explore your future in technology at Utah Valley University
-show_downloads: false 
+description: Shape your future in technology at Utah Valley University
+show_downloads: false
+
+# Site Settings
+url: "" # the base hostname & protocol, e.g., http://example.com
+baseurl: "" # the subpath of your site, e.g., /blog
+
+# Social Links (shown in footer)
+social_links:
+  github: UVU-CS
+  linkedin: uvu
+  twitter: uvucs
+
+# SEO Settings
+author: UVU Computer Science Department
+keywords: computer science, programming, technology, education, utah valley university
+google_analytics: # your Google Analytics tracking ID
+
+# Navigation
+navigation:
+  - title: Programs
+    url: "#programs"
+  - title: Future
+    url: "#future"
+  - title: Silicon Slopes
+    url: "#silicon-slopes"
+  - title: Contact
+    url: "#contact" 
