@@ -1,36 +1,55 @@
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
+- jekyll-seo-tag
 
-title: UVU Computer Science Programs
-description: Shape your future in technology at Utah Valley University
-logo: https://www.uvu.edu/brand/images/logos/uvu-logo.png
+title: UVU Computer Science Department
+description: Preparing tomorrow's tech leaders at Utah Valley University
+logo: https://www.uvu.edu/marketing/images/logos/uvu-logo-green.png
 show_downloads: false
 
 # Site Settings
-url: "" # the base hostname & protocol, e.g., http://example.com
-baseurl: "" # the subpath of your site, e.g., /blog
+url: "https://memari-majid.github.io"
+baseurl: "/UVU-CS-Program_Analyzer"
 
-# Social Links (shown in footer)
+# Department Info
+department:
+  name: Computer Science Department
+  address: 800 W University Parkway, Orem, UT 84058
+  building: Computer Science Building
+  room: CS-520
+  phone: (801) 863-8218
+  email: cs@uvu.edu
+
+# Theme Colors (UVU Brand Colors)
+colors:
+  primary: "#275D38"    # UVU Green
+  secondary: "#FFDB05"  # UVU Yellow
+  dark: "#1A4027"      # Dark Green
+  light: "#F5F5F5"     # Light Gray
+  text: "#333333"      # Dark Gray
+
+# Navigation
+nav_pages:
+  - title: Programs
+    url: /programs
+  - title: Faculty
+    url: /faculty
+  - title: Research
+    url: /research
+  - title: Resources
+    url: /resources
+  - title: Contact
+    url: /contact
+
+# Social Media
 social_links:
   github: UVU-CS
-  linkedin: uvu
+  linkedin: uvu-cs-department
   twitter: uvucs
+  youtube: uvucomputerscience
 
 # SEO Settings
 author: UVU Computer Science Department
-keywords: computer science, programming, technology, education, utah valley university
-google_analytics: # your Google Analytics tracking ID
-
-# Theme colors
-colors:
-  header: "#275D38"  # UVU Green
-  link: "#275D38"    # UVU Green
-  section: "#1A4027" # Dark Green
-  
-# Navigation
-header_pages:
-  - Programs
-  - Future
-  - Silicon Slopes
-  - Contact 
+keywords: computer science, programming, technology, education, utah valley university, UVU, CS, software engineering, artificial intelligence, data science
+google_analytics: # your Google Analytics tracking ID 
