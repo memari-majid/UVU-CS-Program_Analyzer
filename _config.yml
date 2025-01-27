@@ -1,4 +1,5 @@
-theme: jekyll-theme-cayman
+theme: null
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
@@ -12,6 +13,30 @@ colors:
   light: "#F5F5F5"     # Light Gray
   text: "#333333"      # Dark Gray
 
+# Theme Customization
+callouts:
+  note:
+    color: "#275D38"
+  warning:
+    color: "#FFDB05"
+
+# Just the Docs Theme Settings
+color_scheme: nil
+search_enabled: true
+heading_anchors: true
+aux_links:
+  "Apply Now":
+    - "https://www.uvu.edu/admissions/"
+aux_links_new_tab: true
+
+# Theme-specific Colors
+footer_content: "Copyright &copy; 2024 Utah Valley University Computer Science Department"
+
+# Custom CSS
+gh_edit_link: false
+search.button: true
+logo: "/assets/images/UVU_logo.png"
+
 # Site Information
 title: UVU Computer Science Department
 tagline: Shaping Tomorrow's Tech Leaders
@@ -21,7 +46,6 @@ description: >-
   shape the future of technology.
 url: "https://memari-majid.github.io"
 baseurl: "/UVU-CS-Program_Analyzer"
-logo: UVU_logo.png
 show_downloads: false
 
 # Department Information
@@ -103,8 +127,6 @@ quick_links:
     url: https://www.uvu.edu/cet/nsfscholarship/
   - title: Internships
     url: https://www.uvu.edu/cet/internships/computer-science/
-  - title: Apply Now
-    url: https://www.uvu.edu/admissions/
 
 # SEO Settings
 author: UVU Computer Science Department
