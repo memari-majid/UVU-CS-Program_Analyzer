@@ -18,13 +18,13 @@ header {
   max-width: 1200px;
 }
 
-#main-content h1,
-#main-content h2,
-#main-content h3 {
-  font-family: 'Poppins', sans-serif;
-  color: var(--uvu-green);
-  &:before {
-    content: none;
+#main-content {
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--uvu-green);
+    &:before {
+      content: none;
+    }
   }
 }
 
