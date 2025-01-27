@@ -5,19 +5,19 @@
 ### Computer Science (BS)
 - **Core Focus**: Software Development & Systems Design
 - **Starting Salary**: $85,000 - $180,000 (2024)
-- **Job Growth**: 27.3% year-over-year
+- **Job Growth**: 27.3% (2023-2024)
 - **Career Paths**: Software Engineer, Systems Analyst, Tech Lead
 
 ### Computational Data Science (BS)
 - **Core Focus**: AI/ML and Data Analytics
 - **Starting Salary**: $120,000 - $250,000 (2024)
-- **Job Growth**: 42.1% year-over-year
+- **Job Growth**: 42.1% (2023-2024)
 - **Career Paths**: AI Developer, ML Engineer, Data Scientist
 
 ### Software Engineering (BS)
 - **Core Focus**: Large-scale Systems & Enterprise Solutions
 - **Starting Salary**: $95,000 - $180,000 (2024)
-- **Job Growth**: 33.4% year-over-year
+- **Job Growth**: 33.4% (2023-2024)
 - **Career Paths**: Software Architect, DevOps Engineer
 
 ### Graduate Programs
@@ -72,25 +72,75 @@
   - New AI-focused positions emerging
   - Startups leading new hiring wave
 
-## 🚀 The Future of Tech (2024+)
+## 🚀 The Future of Tech (2025+)
 
-### Emerging Opportunities
-- AI Infrastructure: 425% growth
-- Cloud Security: 245% growth
-- Remote-First Roles: 2.5x growth
-- GenAI Specialists: 312% growth
+### Revolutionary AI Infrastructure (2025)
+- **The Stargate Project**
+  - $500B investment over 4 years
+  - Initial $100B deployment in 2025
+  - Major partners: OpenAI, SoftBank, Oracle, Microsoft, NVIDIA
+  - Multiple AI campuses planned across USA
+  - Starting in Texas, expanding nationwide
 
-### Salary Trends
-- AI Expertise Premium: 20-45%
-- Remote Work Premium: 15%
-- Leadership Roles: 30-50% increase
-- Startup Equity: Significant upside
+### AI & Data Revolution
+- **Market Transformation**
+  - US re-industrialization through AI
+  - Massive job creation in AI sector
+  - Strategic national security implications
+  - Global economic benefits projected
+- **Industry Impact**
+  - Deep tech collaboration between giants
+  - New AI computing systems
+  - Enhanced Azure integration
+  - AGI development acceleration
 
-### Silicon Slopes Advantage
-- 472 tech companies in Utah Valley
-- $9.1B in tech investments
-- 27.3% lower cost of living
-- 85%+ placement rate
+### Career Opportunities (2025-2029)
+- **New Roles Created**
+  - AI Infrastructure Engineers
+  - AGI Research Scientists
+  - AI Systems Architects
+  - Quantum Computing Specialists
+  - AI Security Experts
+- **Projected Job Creation**
+  - Hundreds of thousands of new positions
+  - Focus on American workforce
+  - Multi-state employment opportunities
+  - Cross-company collaboration roles
+
+### Salary Projections (2025-2026)
+- **AI Infrastructure Roles**: $200,000 - $500,000
+- **AGI Researchers**: $250,000 - $600,000
+- **AI Systems Architects**: $180,000 - $450,000
+- **AI Security Specialists**: $190,000 - $400,000
+- **Benefits & Incentives**:
+  - Competitive equity packages
+  - Advanced computing access
+  - Research opportunities
+  - Global collaboration
+
+### Silicon Slopes Opportunity
+- **Regional Impact**
+  - Potential Stargate campus location
+  - Enhanced tech ecosystem
+  - Infrastructure investment opportunities
+  - Strategic geographic position
+- **Growth Projections**
+  - 600+ tech companies by 2026
+  - $12B+ local investments
+  - 30% lower living costs vs tech hubs
+  - 90%+ placement rate target
+
+### Critical Skills for Future
+- **Technical Expertise**
+  - Large-scale AI systems
+  - Quantum computing readiness
+  - Advanced ML architectures
+  - Infrastructure optimization
+- **Strategic Competencies**
+  - AI governance & ethics
+  - Cross-industry collaboration
+  - National security awareness
+  - Global tech leadership
 
 ## 📞 Connect With Us
 - Email: [cs@uvu.edu](mailto:cs@uvu.edu)
