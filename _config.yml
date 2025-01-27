@@ -1,6 +1,10 @@
-# theme: jekyll-theme-cayman
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
+
 title: UVU Computer Science Programs
 description: Shape your future in technology at Utah Valley University
+logo: https://www.uvu.edu/brand/images/logos/uvu-logo.png
 show_downloads: false
 
 # Site Settings
@@ -18,13 +22,15 @@ author: UVU Computer Science Department
 keywords: computer science, programming, technology, education, utah valley university
 google_analytics: # your Google Analytics tracking ID
 
+# Theme colors
+colors:
+  header: "#275D38"  # UVU Green
+  link: "#275D38"    # UVU Green
+  section: "#1A4027" # Dark Green
+  
 # Navigation
-navigation:
-  - title: Programs
-    url: "#programs"
-  - title: Future
-    url: "#future"
-  - title: Silicon Slopes
-    url: "#silicon-slopes"
-  - title: Contact
-    url: "#contact" 
+header_pages:
+  - Programs
+  - Future
+  - Silicon Slopes
+  - Contact 
