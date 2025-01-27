@@ -118,4 +118,56 @@
   .program-cards, .feature-cards {
     grid-template-columns: 1fr;
   }
+}
+
+.reveal {
+  h1, h2, h3 {
+    color: #275D38;
+  }
+  
+  .program-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .program-item {
+    background: rgba(39, 93, 56, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    
+    h3 {
+      color: #275D38;
+      margin-top: 0;
+    }
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    color: white;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #275D38;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 2rem;
+    
+    &:hover {
+      background: darken(#275D38, 10%);
+    }
+  }
+  
+  section[data-background="#275D38"],
+  section[data-background="#1A4027"] {
+    h1, h2, h3, p, li {
+      color: white;
+    }
+  }
 } 

@@ -1,11 +1,34 @@
-theme: just-the-docs
-remote_theme: just-the-docs/just-the-docs
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-sitemap
+# Site settings
+title: UVU Computer Science Programs
+description: Utah Valley University Computer Science Department
+baseurl: ""
+url: ""
 
-# Theme Colors (UVU Brand Colors)
+# Theme settings
+theme: reveal-jekyll
+reveal:
+  transition: slide
+  theme: white
+  highlight_theme: github
+  width: 1200
+  height: 800
+
+# Reveal.js settings
+reveal_theme: white
+reveal_transition: slide
+reveal_options: 
+  controls: true
+  progress: true
+  slideNumber: true
+  history: true
+  keyboard: true
+  overview: true
+  center: true
+  touch: true
+  hideAddressBar: true
+  fragments: true
+
+# UVU Colors
 colors:
   primary: "#275D38"    # UVU Green
   secondary: "#FFDB05"  # UVU Yellow
@@ -38,10 +61,6 @@ search.button: true
 logo: "/assets/images/UVU_logo.png"
 
 # Site Information
-title: UVU Computer Science
-description: Utah Valley University Computer Science Department
-url: https://cs.uvu.edu
-baseurl: ""
 show_downloads: false
 
 # Department Information

@@ -1,142 +1,84 @@
 ---
-layout: default
-title: Home
-nav_order: 1
+layout: reveal
+title: UVU Computer Science Programs
 ---
 
-<div class="hero-section" markdown="1">
-# Shape the Future of Technology
-{: .hero-title}
+<!-- Title Slide -->
+<section data-background="assets/images/uvu-campus.jpg" data-background-opacity="0.3">
+# UVU Computer Science
+## Shape the Future of Technology
+</section>
 
-Join Utah Valley University's Computer Science Department and become part of the next generation of tech innovators. Our programs combine cutting-edge curriculum with hands-on experience, preparing you for success in the rapidly evolving tech industry.
-{: .hero-text}
+<!-- Programs Overview -->
+<section>
+# Our Programs
 
-[Explore Programs](https://www.uvu.edu/cs/degrees/){: .cta-button}
-</div>
-
-## 🎓 Our Programs
-{: .section-title}
-
-<div class="program-cards" markdown="1">
-
-<div class="program-card" markdown="1">
+<div class="program-grid">
+<div class="program-item" data-fragment-index="1">
 ### Computer Science (BS)
-- **Focus**: Software Development & Systems
-- **Starting Salary**: $65,000 - $95,000
-- **Job Growth**: 26% through 2032
-- **Key Skills**: Programming, Algorithms, System Design
-- **Career Paths**: Software Engineer, Systems Architect
-[Learn More →](https://www.uvu.edu/cs/degrees/)
+- Software Development & Systems
+- Starting Salary: $65,000 - $95,000
+- 26% Job Growth through 2032
 </div>
 
-<div class="program-card" markdown="1">
+<div class="program-item" data-fragment-index="2">
 ### AI & Data Science (BS)
-- **Focus**: AI, ML & Analytics
-- **Starting Salary**: $75,000 - $110,000
-- **Job Growth**: 41% annual growth
-- **Key Skills**: Machine Learning, Data Analysis, AI Development
-- **Career Paths**: Data Scientist, ML Engineer
-[Learn More →](https://www.uvu.edu/cs/degrees/)
+- AI, ML & Analytics
+- Starting Salary: $75,000 - $110,000
+- 41% Annual Growth
 </div>
 
-<div class="program-card" markdown="1">
+<div class="program-item" data-fragment-index="3">
 ### Software Engineering (BS)
-- **Focus**: Large-Scale Systems
-- **Starting Salary**: $70,000 - $100,000
-- **Job Growth**: 33% growth rate
-- **Key Skills**: Software Architecture, Project Management
-- **Career Paths**: Software Architect, Technical Lead
-[Learn More →](https://www.uvu.edu/cs/degrees/)
+- Large-Scale Systems
+- Starting Salary: $70,000 - $100,000
+- 33% Growth Rate
 </div>
-
 </div>
+</section>
 
-## 🏔️ Silicon Slopes Tech Hub
-{: .section-title}
+<!-- Silicon Slopes -->
+<section data-background="#275D38">
+# Silicon Slopes Tech Hub
 
-<div class="feature-cards" markdown="1">
-
-<div class="feature-card" markdown="1">
-### Tech Paradise
-- Over 400 tech companies in Utah Valley
+<div class="feature-grid">
+- Over 400 tech companies
 - Major players: Adobe, Qualtrics, Domo
 - Perfect for internships & networking
 - Growing startup ecosystem
 </div>
+</section>
 
-<div class="feature-card" markdown="1">
-### Amazing Lifestyle
-- 25% lower cost of living vs tech hubs
-- 5-minute average commute
-- Mountains & outdoor activities
-- Vibrant tech community
-</div>
+<!-- Why Choose UVU CS -->
+<section>
+# Why Choose UVU CS?
 
-<div class="feature-card" markdown="1">
-### Perfect for Students
-- #2 in tech job growth nationally
-- Strong local connections
-- Stay close to home
-- Work-life balance
-</div>
+- Industry-Aligned Curriculum
+- Hands-On Experience
+- 85% Placement Rate
+- Affordable Education
+- State-of-the-art Facilities
+- Expert Faculty
+</section>
 
-</div>
+<!-- Future Prospects -->
+<section data-background="#1A4027">
+# The Future is Here
 
-## 🚀 The Future is Here (2025+)
-{: .section-title}
-
-<div class="future-section" markdown="1">
-
-### AI & Data Revolution
 - Global AI market reaching $407B by 2027
-- 97% growth in AI job postings since 2019
-- 40% increase in AI adoption post-COVID
-- Utah tech sector growing 2x faster than national average
+- 97% growth in AI job postings
+- Utah tech sector growing 2x faster
+- Emerging career paths in AI & ML
+</section>
 
-### Revolutionary AI Infrastructure
-The $500B Stargate Project (2025-2029):
-- Initial $100B deployment in 2025
-- Multiple AI campuses across USA
-- Partners: OpenAI, SoftBank, Oracle, Microsoft, NVIDIA
-- Creating 300,000+ new tech jobs
-
-### Emerging Career Paths
-- AI Infrastructure Engineer: $130K - $250K
-- AGI Research Scientist: $150K - $300K
-- AI Ethics Officer: $120K - $200K
-- Digital Twin Architect: $140K - $260K
-
-</div>
-
-## 🌟 Why Choose UVU CS?
-{: .section-title}
-
-<div class="benefits-section" markdown="1">
-
-- **Industry-Aligned Curriculum**: Updated yearly with tech trends
-- **Hands-On Experience**: Real projects with local companies
-- **Career Support**: 85% placement before graduation
-- **Affordable Education**: Best value in Utah tech education
-- **Modern Facilities**: State-of-the-art labs and equipment
-- **Expert Faculty**: Industry veterans and researchers
-- **Strong Community**: Active clubs and events
-
-</div>
-
-<div class="cta-section" markdown="1">
-## Ready to Start Your Tech Journey?
-{: .cta-title}
-
-[Apply Now](https://www.uvu.edu/admissions/){: .cta-button} [Contact Us](https://www.uvu.edu/cs/){: .cta-button .secondary}
-</div>
-
-## 📱 Contact Us
+<!-- Contact -->
+<section>
+# Connect With Us
 
 - Email: [cs@uvu.edu](mailto:cs@uvu.edu)
 - Phone: (801) 863-8218
-- Visit: Room CS-520
-- Web: [uvu.edu/cs](https://www.uvu.edu/cs)
+- Room: CS-520
+- [uvu.edu/cs](https://www.uvu.edu/cs)
 
----
-
-Ready to shape the future? Join UVU Computer Science and be part of the next tech revolution! 🚀 
+[Apply Now](https://www.uvu.edu/admissions/){: .cta-button}
+</section> 
